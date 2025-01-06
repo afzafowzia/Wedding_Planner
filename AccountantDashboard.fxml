@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="837.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.AccountantDashboardController">
+   <children>
+      <Button layoutX="122.0" layoutY="40.0" mnemonicParsing="false" onAction="#financemanagementButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Finance Management" />
+      <Button layoutX="427.0" layoutY="40.0" mnemonicParsing="false" onAction="#reportButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Report" />
+      <Button layoutX="122.0" layoutY="184.0" mnemonicParsing="false" onAction="#budgetButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Budget" />
+      <Button layoutX="427.0" layoutY="184.0" mnemonicParsing="false" onAction="#taxButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Tax" />
+      <Button layoutX="122.0" layoutY="329.0" mnemonicParsing="false" onAction="#payrollButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Payroll" />
+      <Button layoutX="427.0" layoutY="329.0" mnemonicParsing="false" onAction="#analysisButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Analysis" />
+      <Button layoutX="122.0" layoutY="459.0" mnemonicParsing="false" onAction="#internalSupportButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Internal Controls" />
+      <Button layoutX="427.0" layoutY="459.0" mnemonicParsing="false" onAction="#auditSupportButtonOnClick" prefHeight="78.0" prefWidth="206.0" text="Audit Support" />
+      <Button layoutX="721.0" layoutY="522.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" prefHeight="52.0" prefWidth="87.0" text="Log Out" />
+   </children>
+</AnchorPane>

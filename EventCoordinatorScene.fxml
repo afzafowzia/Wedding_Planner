@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="549.0" prefWidth="464.0" style="-fx-background-color: #6fead2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.EventCoordinatorSceneController">
+   <children>
+      <Button layoutX="14.0" layoutY="124.0" mnemonicParsing="false" onAction="#VolunteerSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="Add New Volunteer" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#DestinationSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="Add New Destination" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="275.0" layoutY="206.0" mnemonicParsing="false" onAction="#PackageSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="Add New Package" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="275.0" layoutY="281.0" mnemonicParsing="false" onAction="#CoreographerSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="Add New Coreographer" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="275.0" layoutY="361.0" mnemonicParsing="false" onAction="#PhotograpgherSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="Add New Photographer" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="145.0" layoutY="470.0" mnemonicParsing="false" onAction="#BackLOGINSceneButtonOnClick" prefHeight="31.0" prefWidth="175.0" style="-fx-background-color: white;" text="Log Out" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="206.0" mnemonicParsing="false" onAction="#groupTableSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="View Group INFO" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="281.0" mnemonicParsing="false" onAction="#EventHostSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="View Event Host Info" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="174.0" layoutY="27.0" style="-fx-background-color: #6fead2;" text="Welcome" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="275.0" layoutY="124.0" mnemonicParsing="false" onAction="#DestinationInfoSceneButtonOnClick" prefHeight="65.0" prefWidth="175.0" style="-fx-background-color: white;" text="View Destination info" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="135.0" layoutY="74.0" text="Event Coordinator" textFill="#323c86">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

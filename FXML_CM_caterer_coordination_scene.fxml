@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="502.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.FXML_CM_caterer_coordination_sceneController">
+   <children>
+      <TextField fx:id="event_id_text_field" layoutX="425.0" layoutY="114.0" prefHeight="25.0" prefWidth="253.0" promptText="Enter Event ID" />
+      <TextField fx:id="vendor_id_text_field" layoutX="425.0" layoutY="150.0" prefHeight="25.0" prefWidth="253.0" promptText="Enter Vendor ID" />
+      <TextField fx:id="payment_text_field" layoutX="425.0" layoutY="405.0" prefHeight="25.0" prefWidth="253.0" promptText="Enter payment amount" />
+      <Button layoutX="570.0" layoutY="444.0" mnemonicParsing="false" onAction="#onClickHireButton" prefHeight="25.0" prefWidth="104.0" text="Hire" />
+      <Button layoutX="24.0" layoutY="444.0" mnemonicParsing="false" onAction="#clickOnBackButton" prefHeight="25.0" prefWidth="119.0" text="Back" />
+      <TextArea fx:id="view_vendor_text_area" editable="false" layoutX="24.0" layoutY="114.0" prefHeight="316.0" prefWidth="374.0" />
+      <Label layoutX="24.0" layoutY="88.0" text="Caterer/Vendor Information:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="27.0" prefHeight="39.0" prefWidth="358.0" text="Caterer/Vendor Coordination" textFill="#270cd7">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="text_area_agreement" layoutX="425.0" layoutY="187.0" prefHeight="200.0" prefWidth="253.0" promptText="Enter Contract Agreement" />
+   </children>
+</AnchorPane>

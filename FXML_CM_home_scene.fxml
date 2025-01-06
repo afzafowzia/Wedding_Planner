@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="502.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.FXML_CM_home_sceneController">
+   <children>
+      <Label layoutX="219.0" layoutY="25.0" prefHeight="39.0" prefWidth="279.0" text="Catering Manager Home Scene" textFill="#270cd7">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="247.0" layoutY="89.0" mnemonicParsing="false" onAction="#onClickMenuPlanning" prefHeight="32.0" prefWidth="223.0" text="Menu Planning" />
+      <Button layoutX="247.0" layoutY="138.0" mnemonicParsing="false" onAction="#onClickCatererCoordination" prefHeight="32.0" prefWidth="223.0" text="Caterer/Vendor Coordination" />
+      <Button layoutX="247.0" layoutY="189.0" mnemonicParsing="false" onAction="#onClickCommunicatewithClient" prefHeight="32.0" prefWidth="223.0" text="Communicate with Client" />
+      <Button layoutX="246.0" layoutY="241.0" mnemonicParsing="false" onAction="#onClickFoodTastingandQualityControl" prefHeight="32.0" prefWidth="223.0" text="Food Tasting and Quality Control" />
+      <Button layoutX="246.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClickCateringBudgeting" prefHeight="32.0" prefWidth="223.0" text="Catering Budgeting" />
+      <Button layoutX="246.0" layoutY="439.0" mnemonicParsing="false" onAction="#onCLickLogoutButton" prefHeight="25.0" prefWidth="223.0" text="Log out" textFill="#f80e0e" />
+      <Button layoutX="247.0" layoutY="343.0" mnemonicParsing="false" onAction="#onClickHandlingLeftoverFood" prefHeight="32.0" prefWidth="223.0" text="Handling Leftover Food" />
+      <Button layoutX="247.0" layoutY="390.0" mnemonicParsing="false" onAction="#onClickCommunicatewithothereventcoordinators" prefHeight="32.0" prefWidth="223.0" text="Communicate with other event coordinators" />
+   </children>
+</AnchorPane>

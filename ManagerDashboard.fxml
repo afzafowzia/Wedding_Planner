@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.ManagerDashboardController">
+   <children>
+      <ComboBox fx:id="selectToRemoveVenueCombobox" layoutX="11.0" layoutY="176.0" prefWidth="150.0" />
+      <Label layoutX="13.0" layoutY="85.0" prefHeight="18.0" prefWidth="98.0" text="Venue Location:" />
+      <Text layoutX="13.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Venue Name:" />
+      <Button layoutX="262.0" layoutY="51.0" mnemonicParsing="false" onAction="#addVenueButtonOnClick" text="Add Venue" />
+      <Button layoutX="194.0" layoutY="159.0" mnemonicParsing="false" onAction="#removeVenueButtonOnClick" text="Remove Venue" />
+      <Text layoutX="19.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Venue Name: " />
+      <Label fx:id="updateVenueNameLabel" layoutX="171.0" layoutY="237.0" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: yellow;" />
+      <ComboBox fx:id="seeVenueDetailsCombobox" layoutX="21.0" layoutY="330.0" onAction="#seeVenueDetailsSelectionCombobox" prefWidth="150.0" />
+      <Text layoutX="23.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select To See Venue Details" />
+      <Button layoutX="408.0" layoutY="124.0" mnemonicParsing="false" onAction="#showVenueListbuttonOnclick" text="See Available Venue List " />
+      <Text layoutX="12.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Venue To Remove" />
+      <Line endX="0.20001220703125" endY="113.29288482666016" layoutX="343.0" layoutY="14.0" startX="0.20001220703125" startY="-14.000005722045898" />
+      <Line endX="-10.29998779296875" endY="103.79289245605469" layoutX="353.0" layoutY="24.0" startX="-353.0" startY="103.79289245605469" />
+      <Line endX="0.20001220703125" endY="76.89997863769531" layoutX="308.0" layoutY="141.0" startX="0.20001220703125" startY="-14.000005722045898" />
+      <Line endX="-43.0999755859375" endY="103.79289245605469" layoutX="352.0" layoutY="114.0" startX="-353.0" startY="103.79289245605469" />
+      <TextField fx:id="newVenueNameTextArea" layoutX="127.0" layoutY="31.0" prefHeight="26.0" prefWidth="107.0" />
+      <TextField fx:id="VenueLocationTextArea" layoutX="127.0" layoutY="81.0" prefHeight="26.0" prefWidth="107.0" />
+      <Button layoutX="208.0" layoutY="343.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back" />
+      <Button layoutX="387.0" layoutY="45.0" mnemonicParsing="false" onAction="#viewNewRegisteredPeopleButtonOnClick" prefHeight="25.0" prefWidth="190.0" text="View New Registered people" />
+      <TextArea fx:id="outputTextArea" layoutX="344.0" layoutY="176.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

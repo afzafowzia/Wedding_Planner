@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.BankPaymentController">
+   <children>
+      <ComboBox fx:id="selectionVendorCombobox" layoutX="41.0" layoutY="31.0" prefWidth="150.0" promptText="Select Vendor" />
+      <TextField fx:id="vendorIdTextField" layoutX="41.0" layoutY="88.0" promptText="Vendor Id" />
+      <TextField fx:id="vendorBankAccountNoTextField" layoutX="41.0" layoutY="187.0" promptText="Vendor Bank Account No" />
+      <TextField fx:id="routingNoTextField" layoutX="41.0" layoutY="235.0" promptText="Routing No" />
+      <ComboBox fx:id="selectBankCombobox" layoutX="41.0" layoutY="142.0" prefWidth="150.0" promptText="Select Bank" />
+      <Button fx:id="makePaymentButtonOnClick" layoutX="281.0" layoutY="129.0" mnemonicParsing="false" onAction="#makePaymentButtonOnClick" prefHeight="116.0" prefWidth="219.0" text="Make Payment" />
+      <Button layoutX="418.0" layoutY="328.0" mnemonicParsing="false" onAction="#PreviousButtonOnClick" text="Previous" />
+      <TextField fx:id="paymentAmountButtonOnClick" layoutX="41.0" layoutY="279.0" promptText="Payment Amount" />
+      <DatePicker fx:id="datePicker" layoutX="29.0" layoutY="328.0" />
+   </children>
+</AnchorPane>

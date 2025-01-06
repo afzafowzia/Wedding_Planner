@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="582.0" prefWidth="805.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="weddingplanner.ClientController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-4.0" prefHeight="591.0" prefWidth="805.0">
+         <children>
+            <ComboBox fx:id="selectToRemoveClientCombobox" layoutX="21.0" layoutY="188.0" prefWidth="150.0" />
+            <Label layoutX="79.0" layoutY="117.0" prefHeight="21.0" prefWidth="127.0" text="Client Location:" />
+            <Text layoutX="75.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Client Name:" />
+            <Button layoutX="383.0" layoutY="80.0" mnemonicParsing="false" onAction="#addClientButtonOnClick" text="Add Client" />
+            <Button layoutX="234.0" layoutY="188.0" mnemonicParsing="false" onAction="#removeClientButtonOnClick" text="Remove Client" />
+            <Text layoutX="52.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Client Name: " />
+            <Label fx:id="updateClientNameLabel" layoutX="259.0" layoutY="260.0" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: yellow;" />
+            <ComboBox fx:id="seeClientDetailsCombobox" layoutX="33.0" layoutY="359.0" onAction="#seeClientDetailsSelectionCombobox" prefWidth="150.0" />
+            <Text layoutX="33.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select To See Client Details" />
+            <Button layoutX="556.0" layoutY="172.0" mnemonicParsing="false" onAction="#showClientListbuttonOnclick" text="See Available Client List " />
+            <Text layoutX="14.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Client To Remove" />
+            <TextField fx:id="newClientNameTextArea" layoutX="240.0" layoutY="53.0" prefHeight="26.0" prefWidth="107.0" />
+            <TextField fx:id="ClientLocationTextArea" layoutX="240.0" layoutY="112.0" prefHeight="26.0" prefWidth="107.0" />
+            <Button layoutX="50.0" layoutY="487.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back" />
+            <Button layoutX="520.0" layoutY="80.0" mnemonicParsing="false" onAction="#viewNewRegisteredPeopleButtonOnClick" prefHeight="31.0" prefWidth="229.0" text="View New Registered people" />
+            <TextArea fx:id="outputTextArea" layoutX="438.0" layoutY="245.0" prefHeight="285.0" prefWidth="311.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

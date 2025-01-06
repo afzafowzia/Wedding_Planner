@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.ImageGalleryController">
+   <children>
+      <TextField layoutX="25.0" layoutY="25.0" prefHeight="26.0" prefWidth="139.0" text="Photographer Name:" />
+      <TextField fx:id="photographerNameTextField" layoutX="197.0" layoutY="26.0" />
+      <Button layoutX="125.0" layoutY="110.0" mnemonicParsing="false" onAction="#addPhotographerButton" text="Add Photographer" />
+      <ComboBox layoutX="149.0" layoutY="149.0" onAction="#selectPhotographerCombobox" prefWidth="150.0" />
+      <Text layoutX="14.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Photographer: " wrappingWidth="125.89453125" />
+      <Button layoutX="415.0" layoutY="25.0" mnemonicParsing="false" onAction="#showPhotographerButtonOnClick" text="Show Photographer List" />
+      <TextField layoutX="25.0" layoutY="61.0" prefHeight="26.0" prefWidth="139.0" text="Salarey:" />
+      <TextField fx:id="salareyTextField" layoutX="197.0" layoutY="61.0" />
+      <ComboBox layoutX="149.0" layoutY="200.0" onAction="#selectEventCombobox" prefWidth="150.0" />
+      <Text layoutX="14.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Event: " wrappingWidth="125.89453125" />
+      <TextArea fx:id="outputTextArea" layoutX="366.0" layoutY="104.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="43.0" layoutY="325.0" mnemonicParsing="false" onAction="#previousButtonOnClick" text="Previous" />
+   </children>
+</AnchorPane>

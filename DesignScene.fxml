@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="670.0" prefWidth="595.0" style="-fx-background-color: #6fead2;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="weddingplanner.DesignSceneController">
+   <children>
+      <Label layoutX="14.0" layoutY="66.0" text="Design Code:">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="340.0" layoutY="67.0" text="Registered Date:">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="116.0" text="Designed By:">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="340.0" layoutY="116.0" text="Price">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="designnCodeTextField" layoutX="108.0" layoutY="62.0" />
+      <TextField fx:id="DesignByTextField" layoutX="117.0" layoutY="111.0" />
+      <TextField fx:id="PriceTextField" layoutX="426.0" layoutY="111.0" />
+      <DatePicker fx:id="ReGDateDatePicker" layoutX="460.0" layoutY="62.0" prefHeight="31.0" prefWidth="161.0" />
+      <Button fx:id="addDesignButtonOnClick" layoutX="13.0" layoutY="160.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="602.0" style="-fx-background-color: white;" text="Add" />
+      <TextArea layoutX="10.0" layoutY="204.0" prefHeight="414.0" prefWidth="602.0" />
+      <Button layoutX="520.0" layoutY="628.0" mnemonicParsing="false" onAction="#backToDCButtonOnClick" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: white;" text="Back" />
+   </children>
+</AnchorPane>

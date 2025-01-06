@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="710.0" prefWidth="728.0" style="-fx-background-color: #6fead2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.FlowerSceneController">
+   <children>
+      <Label layoutX="59.0" layoutY="73.0" text="Flower Name:">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="flowernameComboBox" layoutX="179.0" layoutY="68.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Label layoutX="421.0" layoutY="73.0" text="Quantity:">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <TextField fx:id="flowerQuantityTextField" layoutX="515.0" layoutY="68.0" />
+      <PieChart fx:id="pieChart" layoutX="15.0" layoutY="248.0" prefHeight="421.0" prefWidth="699.0" style="-fx-background-color: white;" title="Pie Chart" />
+      <Button layoutX="591.0" layoutY="194.0" mnemonicParsing="false" onAction="#loadPieChartButtonOnClick" style="-fx-background-color: white;" text="Load Pie Chart" />
+      <Button layoutX="650.0" layoutY="669.0" mnemonicParsing="false" onAction="#backToDMSceneButtonOnClick" style="-fx-background-color: white;" text="Back" />
+      <Button layoutX="58.0" layoutY="136.0" mnemonicParsing="false" onAction="#addToPieChartButtonOnClick" prefHeight="31.0" prefWidth="650.0" style="-fx-background-color: white;" text="Add to Pie Chart" />
+      <Label fx:id="statusLabel" layoutX="78.0" layoutY="199.0" prefHeight="21.0" prefWidth="444.0" />
+   </children>
+</AnchorPane>

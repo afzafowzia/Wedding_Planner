@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="548.0" prefWidth="610.0" style="-fx-background-color: #6fead2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weddingplanner.DecorationManagementSceneController">
+   <children>
+      <Button layoutX="43.0" layoutY="127.0" mnemonicParsing="false" onAction="#uploadPortfolioSceneButtonOnCLick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="Upload Portfolio" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="43.0" layoutY="195.0" mnemonicParsing="false" onAction="#ViewPortfolioSceneButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="View Portfolio" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="43.0" layoutY="259.0" mnemonicParsing="false" onAction="#DecorationButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="Decorations" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="43.0" layoutY="323.0" mnemonicParsing="false" onAction="#FlowerButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="Flowers Lists" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="218.0" layoutY="429.0" mnemonicParsing="false" onAction="#BackToECSceneButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="Log Out" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="366.0" layoutY="127.0" mnemonicParsing="false" onAction="#UploadDesignButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="Upload Design" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" layoutY="195.0" mnemonicParsing="false" onAction="#AddNewDesignerButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="Add New Designer" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" layoutY="259.0" mnemonicParsing="false" onAction="#ViewDesignerButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="View Designer Info" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" layoutY="323.0" mnemonicParsing="false" onAction="#ViewOrderButtonOnClick" prefHeight="49.0" prefWidth="175.0" style="-fx-background-color: white;" text="View Order" textFill="#6d71bf">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="237.0" layoutY="55.0" text="Welcome" textFill="#6d71bf">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
